@@ -16,3 +16,8 @@ body {
   border-style: dashed;
   cursor: pointer;
 }
+img {
+  height: 300px;
+  width: 500px;
+  align-items: center;
+}
