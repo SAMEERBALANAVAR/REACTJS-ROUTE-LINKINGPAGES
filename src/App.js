@@ -7,7 +7,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <ol className="App-header">
+        <h1>Page Routing</h1>
+        <ul className="App-header">
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -17,7 +18,7 @@ function App() {
           <li>
             <Link to="/contact">Contact Us</Link>
           </li>
-        </ol>
+        </ul>
         <Switch>
           <Route exact path="/" component={Home}></Route>
           <Route exact path="/about" component={About}></Route>

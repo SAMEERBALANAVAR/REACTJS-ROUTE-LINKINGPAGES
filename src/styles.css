@@ -1,4 +1,17 @@
 .App {
-  font-family: sans-serif;
-  text-align: center;
+  background-color: aqua;
+}
+body {
+}
+.home {
+  background-color: orange;
+  border-style: ridge;
+}
+.about {
+  background-color: red;
+  border-style: double;
+}
+.contact {
+  background-color: green;
+  border-style: dashed;
 }
